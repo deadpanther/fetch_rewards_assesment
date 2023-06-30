@@ -1,4 +1,4 @@
-# fetch_rewards_assesment
+# Fetch Rewards Assesment
 This is a public repository containing the source code for Fetch Rewards. 
 The task involves developing a server using Go and implementing two endpoints:
 
