@@ -15,7 +15,7 @@ How to reproduce the results and evaluate:
 
 1. Clone the project repository using the command: git clone https://github.com/deadpanther/fetch_rewards_assesment
 2. Open a terminal and navigate to the repository's directory.
-3. Build the Docker image using the command: docker build -t fetch . This will create a Docker image with the tag receipt-api.
+3. Build the Docker image using the command: docker build -t fetch . This will create a Docker image with the tag fetch.
 4. Run the Docker container from the image using the command: docker run -p 5001:5000 fetch
 5. The Go application will now be running inside the Docker container. You can access and test the API using tools like POSTMAN or cURL by sending requests to http://localhost:5001.
 6. For the /receipts/process endpoint, use a POST request to http://localhost:5001/receipts/process.
